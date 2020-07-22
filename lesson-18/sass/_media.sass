@@ -1,0 +1,70 @@
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+    padding: 0 110px
+
+@media (max-width: 992px)
+  .container
+    max-width: 760px
+    padding: 0 60px
+  .logo
+    width: 132px
+  .navbar
+    &-top
+      padding-top: 30px
+      padding-bottom: 30px
+    &__search
+      margin-left: auto
+    &-menu
+      padding-top: 22px
+      padding-bottom: 22px
+      &__link
+        font-size: 12px
+        line-height: 15px
+    .search 
+      &__input
+        width: 300px
+@media (max-width: 768px)
+  .container
+    max-width: 700px
+    padding: 0 48px
+  .logo
+    width: 132px
+  .navbar 
+    &-top__menu-button
+      padding: 0  
+  .navbar
+    &-menu
+      &__link
+        font-size: 10px
+        line-height: 13px
+    .search
+      &__input
+        width: 200px
+
+@media (max-width: 576px)
+  .search
+    &__input,&__button
+      display: none
+  .container
+    max-width: 500px
+    padding: 0 20px
+  .logo
+    width: 115px
+  
+@media (max-width: 480px)
+      
+  .logo
+    width: 99px
+  .user
+    &__avatar,&__name
+      display: none  
+  .container
+    max-width: 400px
+  .menu
+    &-button__line
+      width: 16px
+      height: 1px
+      background-color: $text-color
+  .navbar-bottom
+    display: none
